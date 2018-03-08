@@ -1,0 +1,155 @@
+/*
+* @Author: GuoLanyun
+* @Date:   2018-02-26 08:56:00
+* @Last Modified by:   GuoLanyun
+* @Last Modified time: 2018-02-26 10:07:37
+*/
+@import url("base.css");
+
+@font-face {
+  font-family: 'iconfont';  /* project id 570897 */
+  src: url('http://at.alicdn.com/t/font_570897_ipa2ra52mfquayvi.eot');
+  src: url('http://at.alicdn.com/t/font_570897_ipa2ra52mfquayvi.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_570897_ipa2ra52mfquayvi.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_570897_ipa2ra52mfquayvi.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_570897_ipa2ra52mfquayvi.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+}
+i{
+	font-style: normal;
+}
+
+/* 顶部开始 */
+.dingbu{
+	width: 100%;
+	height: 0.86rem;
+	background: #fff;
+	border-bottom: 0.02rem solid #ececec;
+	overflow: hidden;
+}
+.dingbu_zuo{
+	display: block;
+	width: 0.56rem;
+	height: 0.56rem;
+	float: left;
+	margin-left: 0.35rem;
+	margin-top: 0.15rem;
+}
+.dingbu_zuo img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.dingbu_zhong{
+	width: 1.35rem;
+	height: 0.4rem;
+	margin-top: 0.2rem;
+	margin-left: 3rem;
+	font-size: 0.25rem;
+	text-align: center;
+	line-height: 0.4rem;
+	color: #333;
+}
+/* 顶部结束 */
+.huise{
+	width: 100%;
+	height: 0.2rem;
+	background: #f5f5f5;
+}
+/* 约车开始 */
+.yueche{
+	width: 100%;
+	height: 4.04rem;
+}
+.yueche_shijian{
+	width: 100%;
+	height: 1.01rem;
+	/* background: red; */
+	overflow: hidden;
+}
+.baihua_hz{
+	width: 2.3rem;
+	height: 0.32rem;
+	margin-left: 0.2rem;
+	margin-top: 0.35rem;
+	float: left;
+}
+.baihua_quan{
+	width: 0.13rem;
+	height: 0.13rem;
+	border-radius: 50%;
+	border: 0.05rem solid #6bc18d;
+	float: left;
+	margin-top: 0.07rem;
+}
+.baihuayuan{
+	display: block;
+	width: 1.85rem;
+	height: 100%;
+	float: right;
+	font-size: 0.14rem;
+	color: #333;
+}
+.bianji{
+	width: 0.43rem;
+	height: 0.43rem;
+	display: block;
+	float: right;
+	margin-right: 0.5rem;
+	margin-top: 0.29rem;
+}
+.bianji img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.baihua_quan1{
+	width: 0.13rem;
+	height: 0.13rem;
+	border-radius: 50%;
+	border: 0.05rem solid #fe8c83;
+	float: left;
+	margin-top: 0.07rem;
+}
+.baihuayuan1{
+	display: block;
+	width: 1.85rem;
+	height: 100%;
+	float: right;
+	font-size: 0.14rem;
+	color: #b3b3b3;
+}
+.suishi{
+	width: 1.45rem;
+	height: 0.3rem;
+	background: #fff;
+	border: 0.02rem solid #ff7a37;
+	color: #ff7a37;
+	text-align: center;
+	line-height: 0.3rem;
+	font-size: 0.25rem;
+	border-top-left-radius: 0.2rem;
+	border-bottom-right-radius: 0.2rem;
+	margin-left: 2.5rem;
+	margin-top: 0.4rem;
+}
+/* 约车结束 */
+.hui{
+	width: 100%;
+	height: 7.67rem;
+	background: #f5f5f5;
+	overflow: hidden;
+}
+.dibu{
+	width: 6.6rem;
+	height: 0.8rem;
+	margin: 6.5rem auto;
+	background: #ff7500;
+	border-radius: 0.1rem;
+	font-size: 0.3rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.8rem;
+}
